@@ -22,7 +22,9 @@ body{
     background: linear-gradient( #fcf8f8, #fff, #fff);
     position:relative;
 }
-
+nav a{
+    text-decoration: none;
+}
 nav{
     display:flex;
     align-items:center;
@@ -82,6 +84,11 @@ nav{
     font-size: 16px;
 }
 
+.access a:hover{
+    text-decoration: underline;
+    text-decoration-color:#0065FE;
+}
+
 .access .login{
     color: #0065FE;
 }
@@ -94,7 +101,7 @@ nav{
     margin-left:24px;
 }
 
-a:hover{
+.navitems a:hover{
     text-decoration: underline;
     text-decoration-color:#0065FE;
 }
@@ -823,7 +830,9 @@ footer{
     margin-right:63px;
     padding-left: 203px;   
 }
-
+.footer_div1 a{
+    text-decoration: none;
+}
 footer .logo{
     display:flex;
     color:black;
